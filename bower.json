@@ -1,0 +1,11 @@
+{
+  "name": "steam-item-img",
+  "version": "0.1.0",
+  "description": "A simple image element for use with a steam item's image hash.",
+  "authors": [
+    "James Warner <me@jmswrnr.com> (http://jmswrnr.com)"
+  ],  
+  "dependencies": {
+    "polymer": "Polymer/polymer#>=0.3.0 <1.0.0"
+  }
+}
