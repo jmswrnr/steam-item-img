@@ -2,12 +2,23 @@
 
 <polymer-element name="steam-item-img" attributes="hash width height">
   <template>
+    <style type="text/css">
+      :host {
+        display: inline-block;
+        width: {{width}}px;
+        height: {{height}}px;
+        overflow: hidden;
+      }
+      :host img {
+        display: block;
+      }
+    </style>
     <img src="http://steamcommunity-a.akamaihd.net/economy/image/{{hash}}/{{width}}fx{{height}}f" width="{{width}}" height="{{height}}">
   </template>
   <script>
     Polymer('steam-item-img', {
-      width: 64,
-      height: 64
+      width: 62,
+      height: 62
     });
   </script>
 </polymer-element>
